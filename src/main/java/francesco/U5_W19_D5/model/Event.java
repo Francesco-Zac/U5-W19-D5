@@ -19,6 +19,13 @@ public class Event {
     @ManyToOne
     private User organizer;
 
+    private User creator;
+
+
+    public User getCreator() {
+        return creator;
+    }
+
     public Long getId() {
         return id;
     }
@@ -34,6 +41,8 @@ public class Event {
     public LocalDate getDate() {
         return date;
     }
+
+
 
     public String getLocation() {
         return location;
