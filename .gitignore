@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+###credenziali db
+/src/main/resources/cred.properties
